@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Passenger counter app</title>
+  </head>
+  <body>
+    <div id="parent">
+      <h1 id="title">Passenger Counter APP</h1>
+      <div id="child">
+        <div class="counter">
+          <p id="count-el">0</p>
+          <p id="save-el">Previous entires:</p>
+        </div>
+
+        <div class="buttons">
+          <button id="click-btn" onclick="increment()">INCREMENT</button>
+          <button id="save-btn" onclick="save()">SAVE</button>
+          <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Scrimba. Passenger Counter app project by Matthew.</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
