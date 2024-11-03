@@ -1,9 +1,8 @@
-
 # 🚍 Passenger Counter App
 
 This is a simple Passenger Counter app created as part of a Scrimba mini project. The app lets you keep track of the number of passengers entering a vehicle or space with just a click!
 
-🌐 **[Live Demo](#)**
+🌐 Live View - https://kabeer100xdev.github.io/Passenger-Counter-App/
 
 ## 🛠️ Features
 
